@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/1whfn7hdeyp8k.js"
+3:"/_next/static/chunks/2-ybduf9aj7gq.js"
+4:"/_next/static/chunks/0che5iif1ixfh.js"
+5:I[66120,["$2","$3","$4"],"default"]
+6:I[39756,["$2","$3","$4"],"default"]
+7:I[37457,["$2","$3","$4"],"default"]
+b:"/_next/static/chunks/17ntx4fap6cll.js"
+c:"/_next/static/chunks/05q2kc33w4ljl.js"
+d:I[88838,["$2","$3","$4","$b","$c"],"default"]
+e:I[16692,["$2","$3","$4","$b","$c"],"default"]
+f:I[31233,["$2","$3","$4","$b","$c"],"default"]
+10:I[9911,["$2","$3","$4","$b","$c"],"default"]
+11:I[50688,["$2","$3","$4","$b","$c"],"default"]
+12:I[97367,["$2","$3","$4"],"OutletBoundary"]
+13:"$Sreact.suspense"
+16:"ViewportBoundary"
+17:I[97367,["$2","$3","$4"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2","$3","$4"],"$18"]
+:HL["/_next/static/chunks/1mi_31x69r75o.css","style"]
+9:X
+a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","main",null,{"children":[["$","$Ld",null,{}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}]]}],["$","footer",null,{"className":"bg-ink px-4 py-12 text-paper md:px-8","children":["$","div",null,{"className":"mx-auto flex max-w-[1200px] flex-col items-center gap-6 text-center md:flex-row md:justify-between md:text-left","children":[["$","div",null,{"children":[["$","p",null,{"className":"font-display text-2xl","children":"Choki Zangmo"}],["$","p",null,{"className":"mt-1 text-base text-paper/70","children":"Restaurant Manager · Open to new roles"}]]}],["$","div",null,{"className":"flex flex-wrap items-center justify-center gap-3","children":[["$","$L11",null,{"children":["$","a",null,{"href":"mailto:Choe@gmail.com","className":"inline-flex min-h-12 items-center rounded-full bg-beige px-6 font-semibold text-ink","children":"Say hello"}]}],["$","$L11",null,{"children":["$","a",null,{"href":"#top","className":"inline-flex min-h-12 items-center rounded-full border-2 border-paper/30 px-6 font-semibold","children":"Back to top ↑"}]}]]}],["$","p",null,{"className":"text-sm text-paper/60","children":"© 2026 Choki Zangmo"}]]}]}]],[["$","script","script-0",{"src":"/_next/static/chunks/17ntx4fap6cll.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/05q2kc33w4ljl.js","async":true}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":"$@15","v":null,"s":"$9"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1mi_31x69r75o.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1whfn7hdeyp8k.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2-ybduf9aj7gq.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/0che5iif1ixfh.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Choki Zangmo — Restaurant Manager"}],["$","meta","1",{"name":"description","content":"Portfolio of Choki Zangmo, Restaurant Manager specialising in Food & Beverage Operations, based in Kuwait."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$9"}},"a":"$@1b","u":"$@1c","b":"qEutkuLk2wYpep9lpuyi1"}
+14:null
+9:300
+1c:true
+9:C
+1b:0
+8:"$undefined"
+1a:"$undefined"
+15:"$undefined"

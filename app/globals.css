@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Design tokens (Tailwind v4 reads these to create utilities like bg-ink, text-beige, font-display). */
+@theme {
+  --color-ink: #111111;
+  --color-paper: #ffffff;
+  --color-beige: #c9b39b;
+  /* Darker beige for small text so it passes WCAG contrast on white. */
+  --color-beige-ink: #85684a;
+  --color-card-blue: #5a78d1;
+  --color-card-beige: #d8cfbf;
+  --color-card-sage: #a9be84;
+  --color-card-coral: #e25a4f;
+  --color-card-periwinkle: #819ce3;
+
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Archivo Black", "Poppins", ui-sans-serif, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* Paper grain: a fixed, very faint noise layer for the tactile "printed" feel. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Hide the native cursor only when our custom cursor is active (fine pointers). */
+html.has-cursor,
+html.has-cursor * {
+  cursor: none !important;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--color-beige);
+  color: var(--color-ink);
+}
+
+/* SplitText masks: let descenders breathe inside the clipping wrappers. */
+.split-mask {
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
